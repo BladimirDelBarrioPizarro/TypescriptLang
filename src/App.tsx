@@ -1,24 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Examples from '../src/examples/index'
+import Generic from '../src/examples/generics'
+import Literals from '../src/examples/literals'
+import Unions from '../src/examples/unions'
+import Unknown from '../src/examples/unknown'
+import Matriz from '../src/examples/matriz'
+import UtilityTyopes from '../src/examples/utilityTypes'
+import UtilityTypes from '../src/examples/utilityTypes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+     
+      <UtilityTypes></UtilityTypes>
     </div>
   );
 }
